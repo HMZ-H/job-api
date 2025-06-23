@@ -235,30 +235,3 @@ job-api/
 └── README.md        # This file
 \`\`\`
 
-### Running Tests
-\`\`\`bash
-go test ./...
-\`\`\`
-
-## Deployment
-
-For production deployment:
-
-1. Set `GIN_MODE=release` in environment variables
-2. Use a production-grade PostgreSQL database
-3. Set strong JWT secret
-4. Configure proper CORS settings
-5. Use HTTPS in production
-6. Set up proper logging and monitoring
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
